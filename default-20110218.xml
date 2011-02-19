@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mnemosyne core_version="1" time_of_start="1297584000" >
+<category active="1">
+ <name>css</name>
+</category>
+<category active="1">
+ <name>html</name>
+</category>
+<category active="1">
+ <name>&lt;default&gt;</name>
+</category>
+<item id="326f6f4f" u="0" gr="4" e="2.500" ac_rp="5" rt_rp="2" lps="2" ac_rp_l="1" rt_rp_l="0" l_rp="4" n_rp="6">
+ <cat>html</cat>
+ <Q>What attribute must a img element have?  What does it do?</Q>
+ <A>src.  It is a URL to a image.</A>
+</item>
+<item id="f0c3d3e6" u="0" gr="2" e="2.340" ac_rp="5" rt_rp="3" lps="1" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>What part of the css rule is y or margin?
+
+x { y  : z }
+
+body { margin: 0; }</Q>
+ <A>a Property</A>
+</item>
+<item id="ec770b04" u="0" gr="4" e="2.500" ac_rp="6" rt_rp="3" lps="1" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>What is the value of the selector:
+
+#maincontent .column2 .discovery .portlet ul li a</Q>
+ <A>133</A>
+</item>
+<item id="2e80cee2" u="0" gr="4" e="2.500" ac_rp="5" rt_rp="3" lps="1" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>What type of thing is class in the following element?
+
+div class="portlet noback"&gt;...&lt;/div</Q>
+ <A>An attribute</A>
+</item>
+<item id="b747daf9" u="0" gr="2" e="2.500" ac_rp="3" rt_rp="3" lps="1" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>html</cat>
+ <Q>What is a in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>an attribute value</A>
+</item>
+<item id="cd378f47" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="3" lps="1" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>Do inline elements use the box model?</Q>
+ <A>No, it only applies to block-level elements.</A>
+</item>
+<item id="4ee64554" u="0" gr="4" e="2.500" ac_rp="4" rt_rp="3" lps="1" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>css</cat>
+ <Q>The border is within which box model part?</Q>
+ <A>It is within the margin</A>
+</item>
+<item id="00e809d8" u="0" gr="4" e="2.500" ac_rp="4" rt_rp="2" lps="0" ac_rp_l="4" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>css</cat>
+ <Q>What type of selector starts with a . ?</Q>
+ <A>Class</A>
+</item>
+<item id="3e505400" u="0" gr="4" e="2.340" ac_rp="1" rt_rp="2" lps="0" ac_rp_l="1" rt_rp_l="2" l_rp="4" n_rp="12">
+ <cat>css</cat>
+ <Q>What is the value of the following selector?
+
+body div.main #banner .bgheader</Q>
+ <A>122</A>
+</item>
+<item id="20226c13" u="0" gr="4" e="2.500" ac_rp="4" rt_rp="2" lps="0" ac_rp_l="4" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>css</cat>
+ <Q>What is the first part of a css rule (x) called?
+
+#x { y : z; } </Q>
+ <A>A selector</A>
+</item>
+<item id="b4dc0b7c" u="0" gr="4" e="2.340" ac_rp="4" rt_rp="2" lps="0" ac_rp_l="4" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>Why is using a id selector less useful than a class?</Q>
+ <A>Because an id can only be used once.</A>
+</item>
+<item id="bb2aebb2" u="0" gr="4" e="2.360" ac_rp="5" rt_rp="2" lps="0" ac_rp_l="5" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>Why are element selectors less useful than class selectors?</Q>
+ <A>Element selectors change all instances of the element.  They're usually too general... you spend a lot of time writing more specific rules to work around them.</A>
+</item>
+<item id="8fbe9dcc" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>css</cat>
+ <Q>Why are inline styles a bad idea?</Q>
+ <A>Because they are way too specific, they only work on the element they are apart of, and thus they can't be reused.</A>
+</item>
+<item id="9907183c" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>Which will take precidence, a CSS rule applied to a class, or an inline rule?</Q>
+ <A>An inline rule.  It has a higher weight than any rule.</A>
+</item>
+<item id="803656d0" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>What is the value of an id selector?</Q>
+ <A>100</A>
+</item>
+<item id="e80b67a1" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>What is the value of a class selector?</Q>
+ <A>10</A>
+</item>
+<item id="a715d490" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>What is the value of an element selector?</Q>
+ <A>1</A>
+</item>
+<item id="b26e68f4" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>css</cat>
+ <Q>What is the value of a rule that contains !important ?</Q>
+ <A>1000</A>
+</item>
+<item id="acf95a26" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>Are embedded (in-document styles) more or less useful than externally-linked styles?</Q>
+ <A>Less.  In-document styles can only be applied to that document, they can't be re-used across many documents.</A>
+</item>
+<item id="d7677573" u="0" gr="2" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>css</cat>
+ <Q>What element do you use to include an external stylesheet?</Q>
+ <A>link
+
+Specifically 
+
+link rel='stylesheet' type='text/css' href='mystyle.css'</A>
+</item>
+<item id="5732ed26" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>css</cat>
+ <Q>In the case of a selector weight tie, which rule is applied?</Q>
+ <A>The one that comes last.</A>
+</item>
+<item id="5eb6d020" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>css</cat>
+ <Q>What does the "media" attribute do on the link element?</Q>
+ <A>It tells the browser what media the CSS should be applied to.  For instance media="print" tells the browser that CSS should only be included when printing the page.</A>
+</item>
+<item id="5723189d" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>css</cat>
+ <Q>What part of the CSS rule is z/#000 ? 
+
+x { y: z }
+p { font-color: #000; }</Q>
+ <A>the Value</A>
+</item>
+<item id="2fe29ef7" u="0" gr="5" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>css</cat>
+ <Q>In CSS what does the following line do?
+
+/* p { color: green; } */</Q>
+ <A>Nothing, it is a comment.</A>
+</item>
+<item id="23b8e81f" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>css</cat>
+ <Q>What selector starts with a #</Q>
+ <A>an id</A>
+</item>
+<item id="9b55e349" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>css</cat>
+ <Q>What selector starts without a # or a . ?</Q>
+ <A>an Element</A>
+</item>
+<item id="84682227" u="0" gr="4" e="2.500" ac_rp="5" rt_rp="2" lps="0" ac_rp_l="5" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>css</cat>
+ <Q>What is the box model? </Q>
+ <A>A concept that browsers use to describe block level element styles.</A>
+</item>
+<item id="b139db27" u="0" gr="4" e="2.500" ac_rp="4" rt_rp="2" lps="0" ac_rp_l="4" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>What is the outermost element of the box model?</Q>
+ <A>The margin</A>
+</item>
+<item id="43aa53a4" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>css</cat>
+ <Q>What is the innermost element of the box model?</Q>
+ <A>The content</A>
+</item>
+<item id="70f9c32f" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>css</cat>
+ <Q>What piece is inside of the border in the box model?</Q>
+ <A>The padding</A>
+</item>
+<item id="d5fba4dd" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>css</cat>
+ <Q>From inside to out, what are the parts of the box model?</Q>
+ <A>The content, the padding, the border, the margin.</A>
+</item>
+<item id="f769e958" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>css</cat>
+ <Q>Is the body a block-level element?  Does it have padding?</Q>
+ <A>Yes.  Yes.</A>
+</item>
+<item id="bef83fe5" u="0" gr="5" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>html</cat>
+ <Q>What is the outermost html element?</Q>
+ <A>html</A>
+</item>
+<item id="ecb202c4" u="0" gr="5" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is the root node of a html document?</Q>
+ <A>html</A>
+</item>
+<item id="f6bc633e" u="0" gr="5" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What two children does html contain?</Q>
+ <A>head and body</A>
+</item>
+<item id="0f5de28d" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>html</cat>
+ <Q>What is a self-closing html element?</Q>
+ <A>An element that has no closing tag.
+
+&lt;img src="..." /&gt;
+or
+br </A>
+</item>
+<item id="002327df" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What is x in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>An element</A>
+</item>
+<item id="8c6b151f" u="0" gr="2" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>What is y in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>an attribute</A>
+</item>
+<item id="0f815a57" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>What is aaa in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>a text node, or content</A>
+</item>
+<item id="89c949e1" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>html</cat>
+ <Q>Can xHTML have upper-case elements or attributes?</Q>
+ <A>No</A>
+</item>
+<item id="97124675" u="0" gr="5" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>html</cat>
+ <Q>What is p?</Q>
+ <A>A paragraph</A>
+</item>
+<item id="c7e54bf5" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is em?</Q>
+ <A>Emphasis</A>
+</item>
+<item id="b0e406cb" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>html</cat>
+ <Q>What is a dl?</Q>
+ <A>A definition list</A>
+</item>
+<item id="cd386e24" u="0" gr="4" e="2.360" ac_rp="7" rt_rp="2" lps="0" ac_rp_l="7" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>What is dd? </Q>
+ <A>a Definition Description, part of a Definition List.</A>
+</item>
+<item id="e64aa9df" u="0" gr="3" e="2.360" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>What is a dt?</Q>
+ <A>A Definition Term, part of a Definition list.</A>
+</item>
+<item id="c13cecd5" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is ul? </Q>
+ <A>An unordered list</A>
+</item>
+<item id="0ea3ede5" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is ol? </Q>
+ <A>An ordered list</A>
+</item>
+<item id="036cb2e1" u="0" gr="4" e="2.340" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="5">
+ <cat>html</cat>
+ <Q>What child elements must a ul have ?</Q>
+ <A>li, list items</A>
+</item>
+<item id="f27d70d2" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What is a li? </Q>
+ <A>A list item, a child of an unordered or ordered list</A>
+</item>
+<item id="252805ef" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is div? </Q>
+ <A>Just a div, it has no meaning.</A>
+</item>
+<item id="6d0384c7" u="0" gr="4" e="2.500" ac_rp="4" rt_rp="2" lps="0" ac_rp_l="4" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>What is span? </Q>
+ <A>Just a span, it has no meaning, but is an inline element.</A>
+</item>
+<item id="0dc27c9d" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="10">
+ <cat>html</cat>
+ <Q>Is a div an inline or block element?</Q>
+ <A>Block.</A>
+</item>
+<item id="4cdf5d3b" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>Is p an inline or block element?</Q>
+ <A>Block</A>
+</item>
+<item id="9ec18b63" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>Is ul an inline or block element?</Q>
+ <A>Block</A>
+</item>
+<item id="d6dff0e4" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="9">
+ <cat>html</cat>
+ <Q>Is strong an inline or block element?</Q>
+ <A>inline</A>
+</item>
+<item id="9aab899a" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>How many attributes can an element have?</Q>
+ <A>There is no limit (within reason).</A>
+</item>
+<item id="8ab06df4" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What type of thing is inlinelist in the following element?
+
+ul class="inlinelist"&gt; ... &lt;/ul</Q>
+ <A>It is an attribute value.</A>
+</item>
+<item id="4e9f641d" u="0" gr="2" e="2.500" ac_rp="5" rt_rp="2" lps="0" ac_rp_l="5" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What is an a element?</Q>
+ <A>A link</A>
+</item>
+<item id="458d96e2" u="0" gr="4" e="2.340" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="8">
+ <cat>html</cat>
+ <Q>What attribute must an a element have?  What does it do?</Q>
+ <A>href, contains an attribute value of a URL (a link)</A>
+</item>
+<item id="0f2c5ddd" u="0" gr="4" e="2.500" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="6">
+ <cat>html</cat>
+ <Q>What is an img? </Q>
+ <A>An image element</A>
+</item>
+<item id="4900ea9f" u="0" gr="4" e="2.500" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>How many ids can you have in an html document?</Q>
+ <A>As many as you want, but none of them can have the same values</A>
+</item>
+<item id="f314294a" u="0" gr="4" e="2.360" ac_rp="3" rt_rp="2" lps="0" ac_rp_l="3" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>html</cat>
+ <Q>Can you put an id attribute on body? on html?</Q>
+ <A>Yes, and yes.  It doesn't really make much sense to put one on html.
+
+It is occasionally useful to put a class or id on body however, because you can write selectors against different body conditions.</A>
+</item>
+<item id="ad5a6fce" u="0" gr="4" e="2.497" ac_rp="2" rt_rp="2" lps="0" ac_rp_l="2" rt_rp_l="2" l_rp="4" n_rp="7">
+ <cat>&lt;default&gt;</cat>
+ <Q>How is div .classname different from div.classname?  What does the space in-between separate?</Q>
+ <A>div . classname looks for a div with a .classname ancestor.  div.classname looks for a div with the class "classname."
+
+The space separates different parts of the selector.  </A>
+</item>
+</mnemosyne>
