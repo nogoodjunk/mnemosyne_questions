@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mnemosyne core_version="1" >
+<category active="1">
+ <name>&lt;default&gt;</name>
+</category>
+<category active="1">
+ <name>css</name>
+</category>
+<category active="1">
+ <name>html</name>
+</category>
+<category active="1">
+ <name>urls</name>
+</category>
+<category active="1">
+ <name>accessibility</name>
+</category>
+<category active="1">
+ <name>HTTP</name>
+</category>
+<category active="1">
+ <name>version control</name>
+</category>
+<item id="_0">
+ <cat>html</cat>
+ <Q>What attribute must a img element have?  What does it do?</Q>
+ <A>src.  It is a URL to a image.</A>
+</item>
+<item id="_1">
+ <cat>css</cat>
+ <Q>What part of the css rule is y or margin?
+
+x { y  : z }
+
+body { margin: 0; }</Q>
+ <A>a Property</A>
+</item>
+<item id="_2">
+ <cat>css</cat>
+ <Q>What is the value of the selector:
+
+#maincontent .column2 .discovery .portlet ul li a</Q>
+ <A>133</A>
+</item>
+<item id="_3">
+ <cat>html</cat>
+ <Q>What type of thing is class in the following element?
+
+div class="portlet noback"&gt;...&lt;/div</Q>
+ <A>An attribute</A>
+</item>
+<item id="_4">
+ <cat>html</cat>
+ <Q>What is a in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>an attribute value</A>
+</item>
+<item id="_5">
+ <cat>css</cat>
+ <Q>Do inline elements use the box model?</Q>
+ <A>No, it only applies to block-level elements.</A>
+</item>
+<item id="_6">
+ <cat>css</cat>
+ <Q>The border is within which box model part?</Q>
+ <A>It is within the margin</A>
+</item>
+<item id="_7">
+ <cat>css</cat>
+ <Q>What type of selector starts with a . ?</Q>
+ <A>Class</A>
+</item>
+<item id="_8">
+ <cat>css</cat>
+ <Q>What is the value of the following selector?
+
+body div.main #banner .bgheader</Q>
+ <A>122</A>
+</item>
+<item id="_9">
+ <cat>css</cat>
+ <Q>What is the first part of a css rule (x) called?
+
+#x { y : z; } </Q>
+ <A>A selector</A>
+</item>
+<item id="_10">
+ <cat>css</cat>
+ <Q>Why is using a id selector less useful than a class?</Q>
+ <A>Because an id can only be used once.</A>
+</item>
+<item id="_11">
+ <cat>css</cat>
+ <Q>Why are element selectors less useful than class selectors?</Q>
+ <A>Element selectors change all instances of the element.  They're usually too general... you spend a lot of time writing more specific rules to work around them.</A>
+</item>
+<item id="_12">
+ <cat>css</cat>
+ <Q>Why are inline styles a bad idea?</Q>
+ <A>Because they are way too specific, they only work on the element they are apart of, and thus they can't be reused.</A>
+</item>
+<item id="_13">
+ <cat>css</cat>
+ <Q>Which will take precidence, a CSS rule applied to a class, or an inline rule?</Q>
+ <A>An inline rule.  It has a higher weight than any rule.</A>
+</item>
+<item id="_14">
+ <cat>css</cat>
+ <Q>What is the value of an id selector?</Q>
+ <A>100</A>
+</item>
+<item id="_15">
+ <cat>css</cat>
+ <Q>What is the value of a class selector?</Q>
+ <A>10</A>
+</item>
+<item id="_16">
+ <cat>css</cat>
+ <Q>What is the value of an element selector?</Q>
+ <A>1</A>
+</item>
+<item id="_17">
+ <cat>css</cat>
+ <Q>What is the value of a rule that contains !important ?</Q>
+ <A>1000</A>
+</item>
+<item id="_18">
+ <cat>css</cat>
+ <Q>Are embedded (in-document styles) more or less useful than externally-linked styles?</Q>
+ <A>Less.  In-document styles can only be applied to that document, they can't be re-used across many documents.</A>
+</item>
+<item id="_19">
+ <cat>css</cat>
+ <Q>What element do you use to include an external stylesheet?</Q>
+ <A>link
+
+Specifically 
+
+link rel='stylesheet' type='text/css' href='mystyle.css'</A>
+</item>
+<item id="_20">
+ <cat>css</cat>
+ <Q>In the case of a selector weight tie, which rule is applied?</Q>
+ <A>The one that comes last.</A>
+</item>
+<item id="_21">
+ <cat>css</cat>
+ <Q>What does the "media" attribute do on the link element?</Q>
+ <A>It tells the browser what media the CSS should be applied to.  For instance media="print" tells the browser that CSS should only be included when printing the page.</A>
+</item>
+<item id="_22">
+ <cat>css</cat>
+ <Q>What part of the CSS rule is z/#000 ? 
+
+x { y: z }
+p { font-color: #000; }</Q>
+ <A>the Value</A>
+</item>
+<item id="_23">
+ <cat>css</cat>
+ <Q>In CSS what does the following line do?
+
+/* p { color: green; } */</Q>
+ <A>Nothing, it is a comment.</A>
+</item>
+<item id="_24">
+ <cat>css</cat>
+ <Q>What selector starts with a #</Q>
+ <A>an id</A>
+</item>
+<item id="_25">
+ <cat>css</cat>
+ <Q>What selector starts without a # or a . ?</Q>
+ <A>an Element</A>
+</item>
+<item id="_26">
+ <cat>css</cat>
+ <Q>What is the box model? </Q>
+ <A>A concept that browsers use to describe block level element styles.</A>
+</item>
+<item id="_27">
+ <cat>css</cat>
+ <Q>What is the outermost element of the box model?</Q>
+ <A>The margin</A>
+</item>
+<item id="_28">
+ <cat>css</cat>
+ <Q>What is the innermost element of the box model?</Q>
+ <A>The content</A>
+</item>
+<item id="_29">
+ <cat>css</cat>
+ <Q>What piece is inside of the border in the box model?</Q>
+ <A>The padding</A>
+</item>
+<item id="_30">
+ <cat>css</cat>
+ <Q>From inside to out, what are the parts of the box model?</Q>
+ <A>The content, the padding, the border, the margin.</A>
+</item>
+<item id="_31">
+ <cat>css</cat>
+ <Q>Is the body a block-level element?  Does it have padding?</Q>
+ <A>Yes.  Yes.</A>
+</item>
+<item id="_32">
+ <cat>html</cat>
+ <Q>What is the outermost html element?</Q>
+ <A>html</A>
+</item>
+<item id="_33">
+ <cat>html</cat>
+ <Q>What is the root node of a html document?</Q>
+ <A>html</A>
+</item>
+<item id="_34">
+ <cat>html</cat>
+ <Q>What two children does html contain?</Q>
+ <A>head and body</A>
+</item>
+<item id="_35">
+ <cat>html</cat>
+ <Q>What is a self-closing html element?</Q>
+ <A>An element that has no closing tag.
+
+img src="..." /
+or
+br </A>
+</item>
+<item id="_36">
+ <cat>html</cat>
+ <Q>What is x in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>An element</A>
+</item>
+<item id="_37">
+ <cat>html</cat>
+ <Q>What is y in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>an attribute</A>
+</item>
+<item id="_38">
+ <cat>html</cat>
+ <Q>What is aaa in this example?
+
+x y="z"&gt;aaa&lt;/x</Q>
+ <A>a text node, or content</A>
+</item>
+<item id="_39">
+ <cat>html</cat>
+ <Q>Can xHTML have upper-case elements or attributes?</Q>
+ <A>No</A>
+</item>
+<item id="_40">
+ <cat>html</cat>
+ <Q>What is p?</Q>
+ <A>A paragraph</A>
+</item>
+<item id="_41">
+ <cat>html</cat>
+ <Q>What is em?</Q>
+ <A>Emphasis</A>
+</item>
+<item id="_42">
+ <cat>html</cat>
+ <Q>What is a dl?</Q>
+ <A>A definition list</A>
+</item>
+<item id="_43">
+ <cat>html</cat>
+ <Q>What is dd? </Q>
+ <A>a Definition Description, part of a Definition List.</A>
+</item>
+<item id="_44">
+ <cat>html</cat>
+ <Q>What is a dt?</Q>
+ <A>A Definition Term, part of a Definition list.</A>
+</item>
+<item id="_45">
+ <cat>html</cat>
+ <Q>What is ul? </Q>
+ <A>An unordered list</A>
+</item>
+<item id="_46">
+ <cat>html</cat>
+ <Q>What is ol? </Q>
+ <A>An ordered list</A>
+</item>
+<item id="_47">
+ <cat>html</cat>
+ <Q>What child elements must a ul have ?</Q>
+ <A>li, list items</A>
+</item>
+<item id="_48">
+ <cat>html</cat>
+ <Q>What is a li? </Q>
+ <A>A list item, a child of an unordered or ordered list</A>
+</item>
+<item id="_49">
+ <cat>html</cat>
+ <Q>What is div? </Q>
+ <A>Just a div, it has no meaning.</A>
+</item>
+<item id="_50">
+ <cat>html</cat>
+ <Q>What is span? </Q>
+ <A>Just a span, it has no meaning, but is an inline element.</A>
+</item>
+<item id="_51">
+ <cat>html</cat>
+ <Q>Is a div an inline or block element?</Q>
+ <A>Block.</A>
+</item>
+<item id="_52">
+ <cat>html</cat>
+ <Q>Is p an inline or block element?</Q>
+ <A>Block</A>
+</item>
+<item id="_53">
+ <cat>html</cat>
+ <Q>Is ul an inline or block element?</Q>
+ <A>Block</A>
+</item>
+<item id="_54">
+ <cat>html</cat>
+ <Q>Is strong an inline or block element?</Q>
+ <A>inline</A>
+</item>
+<item id="_55">
+ <cat>html</cat>
+ <Q>How many attributes can an element have?</Q>
+ <A>There is no limit (within reason).</A>
+</item>
+<item id="_56">
+ <cat>html</cat>
+ <Q>What type of thing is inlinelist in the following element?
+
+ul class="inlinelist"&gt; ... &lt;/ul</Q>
+ <A>It is an attribute value.</A>
+</item>
+<item id="_57">
+ <cat>html</cat>
+ <Q>What is an a element?</Q>
+ <A>A link</A>
+</item>
+<item id="_58">
+ <cat>html</cat>
+ <Q>What attribute must an a element have?  What does it do?</Q>
+ <A>href, contains an attribute value of a URL (a link)</A>
+</item>
+<item id="_59">
+ <cat>html</cat>
+ <Q>What is an img? </Q>
+ <A>An image element</A>
+</item>
+<item id="_60">
+ <cat>html</cat>
+ <Q>How many ids can you have in an html document?</Q>
+ <A>As many as you want, but none of them can have the same values</A>
+</item>
+<item id="_61">
+ <cat>html</cat>
+ <Q>Can you put an id attribute on body? on html?</Q>
+ <A>Yes, and yes.  It doesn't really make much sense to put one on html.
+
+It is occasionally useful to put a class or id on body however, because you can write selectors against different body conditions.</A>
+</item>
+<item id="_62">
+ <cat>&lt;default&gt;</cat>
+ <Q>How is div .classname different from div.classname?  What does the space in-between separate?</Q>
+ <A>div . classname looks for a div with a .classname ancestor.  div.classname looks for a div with the class "classname."
+
+The space separates different parts of the selector.  </A>
+</item>
+<item id="_63">
+ <cat>urls</cat>
+ <Q>What is the difference between index.htm and index.html?  </Q>
+ <A>None, they work the same way.</A>
+</item>
+<item id="_64">
+ <cat>urls</cat>
+ <Q>What file in a webserver directory is displayed by default when entering the directory's URL in a browser?</Q>
+ <A>index.html or index.htm</A>
+</item>
+<item id="_65">
+ <cat>urls</cat>
+ <Q>What is an absolute url?</Q>
+ <A>Starts with "http://" and includes the full web address of a document, so that no matter where that document lives, the url is always the same.</A>
+</item>
+<item id="_66">
+ <cat>urls</cat>
+ <Q>What is a relative url?</Q>
+ <A>A relative url starts with a directory name, file name, or "../", which refers to something "up" a directory.</A>
+</item>
+<item id="_67">
+ <cat>urls</cat>
+ <Q>What does a server relative url always start with?</Q>
+ <A>/</A>
+</item>
+<item id="_68">
+ <cat>urls</cat>
+ <Q>What type of url will always assume that the document it references is in the same place as the server?</Q>
+ <A>a server relative url</A>
+</item>
+<item id="_69">
+ <cat>css</cat>
+ <Q>In a css selector, what comes after the last property:value pair?</Q>
+ <A>Only the closing } is required but you should always include the ;</A>
+</item>
+<item id="_70">
+ <cat>css</cat>
+ <Q>How do you apply the same rules to multiple selectors?</Q>
+ <A>Separate them with commas.</A>
+</item>
+<item id="_71">
+ <cat>css</cat>
+ <Q>What does margin:0 auto do?</Q>
+ <A>It centers an object within it's container.</A>
+</item>
+<item id="_72">
+ <cat>css</cat>
+ <Q>What does overflow:scroll do?
+</Q>
+ <A>When the content of a block level element that's given a dimension (width, height, or both) extends beyond that dimension, a scroll bar is added so the content can still be accessed through scrolling.</A>
+</item>
+<item id="_73">
+ <cat>css</cat>
+ <Q>What does the -moz prefix do?</Q>
+ <A>The prefix is used to differentiate standardized properties from non-standard (browser vendor only) properties.  In this case, Mozilla (Firefox's).</A>
+</item>
+<item id="_74">
+ <cat>css</cat>
+ <Q>What is does the * selector do?</Q>
+ <A>It selects everything</A>
+</item>
+<item id="_75">
+ <cat>html</cat>
+ <Q>What is a tr?</Q>
+ <A>A table row.</A>
+</item>
+<item id="_76">
+ <cat>html</cat>
+ <Q>What is a dl?</Q>
+ <A>A definition list</A>
+</item>
+<item id="_77">
+ <cat>html</cat>
+ <Q>What is a li?</Q>
+ <A>A list item</A>
+</item>
+<item id="_78">
+ <cat>html</cat>
+ <Q>What is a th</Q>
+ <A>A table header</A>
+</item>
+<item id="_79">
+ <cat>html</cat>
+ <Q>What children should a table element have?</Q>
+ <A>tr, table rows</A>
+</item>
+<item id="_80">
+ <cat>html</cat>
+ <Q>What types of lists are there?</Q>
+ <A>definition lists (dl), ordered lists (ol), unordered lists (ol)</A>
+</item>
+<item id="_81">
+ <cat>html</cat>
+ <Q>What is a label?</Q>
+ <A>It is an element that labels a form element.  </A>
+</item>
+<item id="_82">
+ <cat>html</cat>
+ <Q>How is a label associated with a form element?</Q>
+ <A>The label element is given a "for" attribute, which matches the "id" attribute on a specific form element.</A>
+</item>
+<item id="_83">
+ <cat>html</cat>
+ <Q>What are the standard attributes of the "form" element?</Q>
+ <A>"action", "method", "enctype", though there are others.</A>
+</item>
+<item id="_84">
+ <cat>html</cat>
+ <Q>What does a form's "action" do?</Q>
+ <A>It tells the browser where to send the data when the form is submitted.</A>
+</item>
+<item id="_85">
+ <cat>html</cat>
+ <Q>What does a form's "method" do?</Q>
+ <A>It tells the browser whether the data should be sent via HTTP's "GET" or "POST" methods (get = data in url appended to action, post = data in request body)</A>
+</item>
+<item id="_86">
+ <cat>css</cat>
+ <Q>What are the four values of the CSS "position" property?</Q>
+ <A>fixed, static, absolute, relative.  The last two are the most important.</A>
+</item>
+<item id="_87">
+ <cat>css</cat>
+ <Q>What does position: relative do?</Q>
+ <A>It positions something relative to where it would normally be on the page.</A>
+</item>
+<item id="_88">
+ <cat>css</cat>
+ <Q>What happens when you have a absolutely positioned element within a relatively positioned element?</Q>
+ <A>The absolutely positioned element is adjusted relative to the relatively positioned element... not the browser window!!  Meaning you can position things relative to other things.  </A>
+</item>
+<item id="_89">
+ <cat>css</cat>
+ <Q>What does an absolutely positioned object do?</Q>
+ <A>It positions itself relative to it's nearest relatively positioned ancestor.  If there is none, it positions itself relative to the browser window.</A>
+</item>
+<item id="_90">
+ <cat>css</cat>
+ <Q>What's the best way to give something "hasLayout" in Internet Explorer?</Q>
+ <A>zoom:1, because it will basically multiply the size by 1, keeping it the same size. </A>
+</item>
+<item id="_91">
+ <cat>css</cat>
+ <Q>What is one of the downsides of using zoom:1?</Q>
+ <A>It doesn't validate, because it's a browser-specific property.  But validation doesn't really matter much.</A>
+</item>
+<item id="_92">
+ <cat>css</cat>
+ <Q>What are some other ways to give an object "hasLayout", other than zoom: 1?</Q>
+ <A>To specify a height or width on an element, to float it left or right, or to gie it position: absolute.  The clearest way is still zoom:1, however.</A>
+</item>
+<item id="_93">
+ <cat>css</cat>
+ <Q>What does .a, .b, .c{display:none;} do?</Q>
+ <A>It hides anything that has a class of "a", "b", or "c".</A>
+</item>
+<item id="_94">
+ <cat>css</cat>
+ <Q>Is the max-width property supported by Internet Explorer?</Q>
+ <A>Yes, but not in IE6, you have to work around it there.</A>
+</item>
+<item id="_95">
+ <cat>css</cat>
+ <Q>What is a CSS sprite?</Q>
+ <A>It is a single image that contains a number of images.  In your page, you create block-level elements with the dimensions of the sub-images and just position the background differently to show each individual image.  
+
+This technique saves the browser from making a number of requests for the different images, which reduces the time required to display the page.</A>
+</item>
+<item id="_96">
+ <cat>html</cat>
+ <Q>Why should you try to give img elements width and height attributes?</Q>
+ <A>Because when you do, the page doesn't have to wait for the image to load to determine what size it's going to be in the page.   This prevents your content from "jumping" around when the image is finally loaded and it's size is determined.</A>
+</item>
+<item id="_97">
+ <cat>css</cat>
+ <Q>When creating a horizontal menu with different sized links, what do you do?</Q>
+ <A>You display the list-items as display:inline.  This will make sure they display the size of the text inside.</A>
+</item>
+<item id="_98">
+ <cat>css</cat>
+ <Q>When creating a horizontal navigation with equally sized links, what do you do?</Q>
+ <A>You float the list-items to the left, and give them all the same width and height values.  Because they are floated and not displayed inline, they will not be sized horizontally based on the text inside.</A>
+</item>
+<item id="_99">
+ <cat>css</cat>
+ <Q>What is "hover" in a:hover called?</Q>
+ <A>A pseudo-selector, or pseudo-class. </A>
+</item>
+<item id="_100">
+ <cat>css</cat>
+ <Q>What is the easiest way to do a two-column layout?</Q>
+ <A>To float the left column left, and give it a width.  Then give the right column a margin-left the same size (width) as the left column.</A>
+</item>
+<item id="_101">
+ <cat>css</cat>
+ <Q>When using margin:0 auto to center something, how to you make it work in IE6?</Q>
+ <A>You have to apply text-align:center to the parent element, and then text-align:left to the "centered" element (text-align inherits, so you are just canceling out the rule).</A>
+</item>
+<item id="_102">
+ <cat>css</cat>
+ <Q>How do you remove "hasLayout" from an object?</Q>
+ <A>The only way to do it is to remove all of the properties that give the object layout in the first case.  Luckily, this doesn't happen very often.</A>
+</item>
+<item id="_103">
+ <cat>html</cat>
+ <Q>What are the two most-used type of form elements.</Q>
+ <A>Inputs and buttons.  So you gotta know them bitches!</A>
+</item>
+<item id="_104">
+ <cat>html</cat>
+ <Q>What does a textarea element do?</Q>
+ <A>It allows the user to write multiple lines of text?</A>
+</item>
+<item id="_105">
+ <cat>html</cat>
+ <Q>How do you size a textarea element?</Q>
+ <A>With height and width properties in CSS.  While the element does have valid "cols" and "rows" attributes, you should try to avoid them, for the same reason that you use CSS in general. </A>
+</item>
+<item id="_106">
+ <cat>html</cat>
+ <Q>How do you disable a form element?</Q>
+ <A>You give the element an attribute called "disabled" that has the value of "disabled."  So...
+
+input disabled='disabled'</A>
+</item>
+<item id="_107">
+ <cat>html</cat>
+ <Q>What does a fieldset element do?</Q>
+ <A>It is used to wrap similar form elements, such as a bunch of radio buttons.  They can all be given individual labels, but a fieldset provides meaning to the group.</A>
+</item>
+<item id="_108">
+ <cat>html</cat>
+ <Q>What is a legend element for?</Q>
+ <A>It "labels" the fieldset.  You can think of it as form element is to label, as fieldset is to legend.</A>
+</item>
+<item id="_109">
+ <cat>html</cat>
+ <Q>What does a tfoot element do?</Q>
+ <A>It specifies a row that is the table footer.</A>
+</item>
+<item id="_110">
+ <cat>html</cat>
+ <Q>In what order should thead, tbody, and tfoot be specified within the table element?</Q>
+ <A>It has to be thead, tfoot, tbody.  No, that doesn't really make sense.  Don't ask me why.</A>
+</item>
+<item id="_111">
+ <cat>html</cat>
+ <Q>What is the "name" attribute of a form element for? </Q>
+ <A>It is used as the "name" for the data sent to the server.  In a GET style form submit, the "name" would be...
+
+http://www.something.com/?name=value</A>
+</item>
+<item id="_112">
+ <cat>urls</cat>
+ <Q>When form multiple form elements are sent to the server, how are they separated in the url?</Q>
+ <A>They are separated by ampersands '&amp;' characters.
+
+http://something.com/?name=value&amp;secondname=value</A>
+</item>
+<item id="_113">
+ <cat>urls</cat>
+ <Q>What part of the url is the domain?</Q>
+ <A>The domain is the "ebay.com" portion of the url... it's the server name.  It's the part after "http://" and before the next slash (if there is one).</A>
+</item>
+<item id="_114">
+ <cat>urls</cat>
+ <Q>What is a fragment identifier?</Q>
+ <A>It is the portion at the end of the url after the # sign.  It is used to link to in-page links (it will link to any element given an id.)
+
+So if you have div id="abc"
+
+Then http://domain.com#abc will cause the browser to scroll directly to the place that "abc" is in the page.</A>
+</item>
+<item id="_115">
+ <cat>urls</cat>
+ <Q>What is a url path?</Q>
+ <A>It's anything in the url after the domain.
+
+http://domain.com/all/of/these/together/are/the/path/</A>
+</item>
+<item id="_116">
+ <cat>html</cat>
+ <Q>Why would you use the q element vs. the blockquote element?</Q>
+ <A>You would use the q element for a short, inline quote, while you would use the blockquote for a longer quote.  q is inline by default, while blockquote is a block element by default.</A>
+</item>
+<item id="_117">
+ <cat>html</cat>
+ <Q>What is an image map?   (a "map" element)</Q>
+ <A>It's an old way of putting multiple links of various sizes/dimensions transparently on top of images.  "Area" elements define the clickable areas.  These are hardly used today.</A>
+</item>
+<item id="_118">
+ <cat>html</cat>
+ <Q>What is a "a" element for?  What attributes shoudl it have?</Q>
+ <A>It is used to link somewhere else.  It should always have a "href" attribute.  It could have a "title" attrbitue.</A>
+</item>
+<item id="_119">
+ <cat>html</cat>
+ <Q>What is the "title" attribute for?</Q>
+ <A>It is the title of the link.  In most browsers, when you hover over something (with your mouse) that has a title attribute, a little yellow "tooltip" (just a line of text) will be displayed.</A>
+</item>
+<item id="_120">
+ <cat>html</cat>
+ <Q>When should you use a "br" element?</Q>
+ <A>NEVER, unless you really need it.  It makes CSS difficult to apply.</A>
+</item>
+<item id="_121">
+ <cat>html</cat>
+ <Q>Are lists (dl, ul, ol) by default block or inline elements?</Q>
+ <A>block</A>
+</item>
+<item id="_122">
+ <cat>html</cat>
+ <Q>Are forms block elements?</Q>
+ <A>Yes.</A>
+</item>
+<item id="_123">
+ <cat>html</cat>
+ <Q>What are all of the block level elements?</Q>
+ <A>P, h1-h6, ul, ol, dl, pre, div, noscript, blockquote, form, hr, table, fieldset, address.  You do not have to memorize these... with experience, you will just "know."</A>
+</item>
+<item id="_124">
+ <cat>css</cat>
+ <Q>What is the shorthand for the border property?</Q>
+ <A>border: size border-type color
+
+border-type could be solid, dashed, dotted, or a few others that you never use.</A>
+</item>
+<item id="_125">
+ <cat>css</cat>
+ <Q>What makes margins different than paddings?</Q>
+ <A>Margins are on the outside of the border in the box model (paddings are inside), and adjacent margins collapse.</A>
+</item>
+<item id="_126">
+ <cat>css</cat>
+ <Q>What is the shorthand for the margin property?</Q>
+ <A>margin: top right bottom left (margin: 1em 2em .5em .4em)
+or
+margin: top right-left bottom (margin: 1em 2em 3em)
+or
+margin: top-bottom left-right (margin: 1em 2em)
+or
+margin: top-right-bottom-left (margin: 1em)</A>
+</item>
+<item id="_127">
+ <cat>css</cat>
+ <Q>Can you use border shorthand to apply different sizes to each side?</Q>
+ <A>No, you can only apply the same size, type, and color to the object's entire border.  You can't do:
+
+border: 1px 2px 1px 1px solid red;</A>
+</item>
+<item id="_128">
+ <cat>urls</cat>
+ <Q>What is the part of the url after the ? called</Q>
+ <A>That's the query-string, the name=value pairs are called query string parameters.</A>
+</item>
+<item id="_129">
+ <cat>html</cat>
+ <Q>Is an "a" element a block or inline element by default?</Q>
+ <A>Inline.  To change the size (other than height) you have to set it to display:block.</A>
+</item>
+<item id="_130">
+ <cat>css</cat>
+ <Q>What happens when you wrap an "img" element with a "a" element (visually)?</Q>
+ <A>The image is given a border.  That's why one of the commandments is to always set 
+
+img{border:0} 
+
+in your stylesheets.</A>
+</item>
+<item id="_131">
+ <cat>css</cat>
+ <Q>What is a reset css?  What is it good for?  What is bad about them?</Q>
+ <A>It is a stylesheet that zero's out all elements, and makes them all consistent.  
+
+They are good for: 
+* making the content within the different browsers display consistently
+* making it easier for developers, since they only have to add margins and paddings (and other things) when they really need them.
+
+The bad:
+* they usually require a extra HTTP request to download the reset.css file
+* they add a lot of complexity, thus they're probably only good for people who know what they're doing</A>
+</item>
+<item id="_132">
+ <cat>css</cat>
+ <Q>What is the process called when you add CSS3 properties to your css, despite the fact that not all browsers can display them?  Why is it good?</Q>
+ <A>Progressive enhancement.  It gives "extra" features to people who are using modern browsers, and at very little cost.</A>
+</item>
+<item id="_133">
+ <cat>css</cat>
+ <Q>What is the Safari/Chrome CSS3 browser prefix?</Q>
+ <A>-webkit</A>
+</item>
+<item id="_134">
+ <cat>css</cat>
+ <Q>How do you give a div class="a" consistent 10px rounded corners using CSS3?</Q>
+ <A>div.a{ -moz-border-radius: 10px; -webkit-border-radius: 10px -o-border-radius: 10px; border-radius: 10px; }</A>
+</item>
+<item id="_135">
+ <cat>css</cat>
+ <Q>Why do you always list the official CSS3 property after the browser-prefixed ones?</Q>
+ <A>Because that way if they are displayed in a browser that supports the official property, it will override the browser specific version.</A>
+</item>
+<item id="_136">
+ <cat>css</cat>
+ <Q>How do you clear floats without adding any extra elements to the HTML markup?</Q>
+ <A>You set overflow:hidden on the floated object's parent.  This is a super-powerful technique.</A>
+</item>
+<item id="_137">
+ <cat>css</cat>
+ <Q>How do you change the size of a link? (visually)</Q>
+ <A>You have to give it a width and a height, but you also have to make it display:block, or the width won't any effect... it will be as wide as it's contents.</A>
+</item>
+<item id="_138">
+ <cat>css</cat>
+ <Q>What does the :first-letter pseudo-class do?</Q>
+ <A>It selects the first letter of the text node inside the selected element.  It lets you adjust the CSS of that letter (usually font-size, for a "drop-cap")</A>
+</item>
+<item id="_139">
+ <cat>css</cat>
+ <Q>What is the shorthand for the CSS background property?</Q>
+ <A>background: background-color background-image background-repeat background-attachment background-position
+
+In practice, you usually leave out background-attachment (fixed or scroll, tells whether the background scrolls, or stays in one place when the page is scrolled).  The rest are usually used together.</A>
+</item>
+<item id="_140">
+ <cat>css</cat>
+ <Q>When do you usually use the background-position property?  What are the values?</Q>
+ <A>You use it when you're deaing with CSS sprites, or trying to position a background-image like when use images to replace ul element bullets.
+
+The values usually are something like:
+
+background-position: 0px 0px;
+background-position: 45px 96px;
+etc.
+
+It's ok to use pixels here, because all images are sized in px.  If you want to use ems here, you are free to.</A>
+</item>
+<item id="_141">
+ <cat>css</cat>
+ <Q>How do you use CSS to make text bold?</Q>
+ <A>font-weight: bold</A>
+</item>
+<item id="_142">
+ <cat>css</cat>
+ <Q>How do you use CSS to make text italic?</Q>
+ <A>font-style: italic</A>
+</item>
+<item id="_143">
+ <cat>css</cat>
+ <Q>How do you use CSS to make text underlined?</Q>
+ <A>text-decoration: underline</A>
+</item>
+<item id="_144">
+ <cat>css</cat>
+ <Q>What does the "top" property do?</Q>
+ <A>It defines how much a relative or absolutely positioned element should be moved versus it's initial "top" starting point.  The value can be negative (thus moving it up, rather than down).</A>
+</item>
+<item id="_145">
+ <cat>css</cat>
+ <Q>What does the z-index property do?</Q>
+ <A>It defines how elements sit on top of each other.  The value can be any positive or negative integer.  If one z-index is higher than an other, than the first object will be displayed on top of the second.</A>
+</item>
+<item id="_146">
+ <cat>css</cat>
+ <Q>What are the three big values of the display property?</Q>
+ <A>block, inline, none.
+
+table-cell and inline-block are becoming big, but you don't have to know what they are yet.</A>
+</item>
+<item id="_147">
+ <cat>css</cat>
+ <Q>What are the possible values of the "overflow" property?</Q>
+ <A>visible, hidden, scroll, auto (and inherit, but that's the same as doing nothing)
+
+Visible: shows the content even if it pokes out of the container
+hidden: hides the content if it goes out of the container
+scroll: adds scroll bars to scroll to the content within the container
+auto: makes the determination... usually it is either not applied, or scroll.</A>
+</item>
+<item id="_148">
+ <cat>css</cat>
+ <Q>What does the "clear" property do?</Q>
+ <A>It tells the browser which sides of this element that floated objects are not allowed on.  
+
+You usually DO NOT want this property to be applied to an element that is being floated... unless you know what you're doing.  Most people make the mistake and think that clear works on the floated element.</A>
+</item>
+<item id="_149">
+ <cat>css</cat>
+ <Q>What does visibility: hidden do?</Q>
+ <A>It hides an element, but it still leaves the space taken up in the flow of the document.</A>
+</item>
+<item id="_150">
+ <cat>css</cat>
+ <Q>What does display: none do?</Q>
+ <A>It hides an element and removes it from the flow of the document (so it doesn't take up any space).</A>
+</item>
+<item id="_151">
+ <cat>css</cat>
+ <Q>What does the "border-collapse" property do?</Q>
+ <A>It is applied to tables.  It determines whether table cells (td) should have adjacent borders collapsed into one line, or separate.  I've never even seen a table that has separate borders.
+
+Values are "collapse" or "separate."</A>
+</item>
+<item id="_152">
+ <cat>css</cat>
+ <Q>What does the color property do?</Q>
+ <A>It changes the color of text.  </A>
+</item>
+<item id="_153">
+ <cat>css</cat>
+ <Q>What do you have to do to change a link's color?</Q>
+ <A>You have to give the link a specific "color" property.  Why?  Because even though "color" is inherited, browsers include more specific default colors for links, so you are forced to over-ride them.</A>
+</item>
+<item id="_154">
+ <cat>css</cat>
+ <Q>What does the text-indent property do?  When do you typically use it?</Q>
+ <A>It indents some text.   You typically use it to hide things you want screenreaders to read, but you want them off the page so only the accessible readers see them.  You typically give those objects:
+
+text-indent: -9999em</A>
+</item>
+<item id="_155">
+ <cat>css</cat>
+ <Q>What is the line-height property?  What happens when you don't give it a unit value, like "em", "px", or "%"?</Q>
+ <A>It determines the height between lines in text.  
+
+When you don't give it a unit, that number value is multiplied against the font-size to determine the line-height.  Meaning it varies with the font-size, which is incredibly useful.</A>
+</item>
+<item id="_156">
+ <cat>css</cat>
+ <Q>What are the typical units for measurement in CSS?</Q>
+ <A>Typically you use either "em"s or "px".  "%" based units are also valid.
+
+There are other units, but you don't need to use or know them.</A>
+</item>
+<item id="_157">
+ <cat>css</cat>
+ <Q>What does the "white-space: nowrap" property-value pair do?</Q>
+ <A>It prevents text from wrapping.  This can be useful at times.</A>
+</item>
+<item id="_158">
+ <cat>accessibility</cat>
+ <Q>What must you always put on images (that have a meaning)?</Q>
+ <A>The "alt" attribute, which is a text-representation of that image.</A>
+</item>
+<item id="_159">
+ <cat>accessibility</cat>
+ <Q>What is the WCAG?</Q>
+ <A>The Web Content Accessibility Guidelines, a set of guidelines created by the W3C.</A>
+</item>
+<item id="_160">
+ <cat>accessibility</cat>
+ <Q>What is 508?</Q>
+ <A>A set of government guidelines established to ensure government "products" are accessible by all parties.</A>
+</item>
+<item id="_161">
+ <cat>accessibility</cat>
+ <Q>What is the easiest way to make a web page accessible?</Q>
+ <A>To use POSH, or "Plain Old Semantic HTML."  That won't be perfect, but that will go a long way.</A>
+</item>
+<item id="_162">
+ <cat>accessibility</cat>
+ <Q>At a bare-minimum, what must you always do to make a form accessible?</Q>
+ <A>Attach labels to form elements.</A>
+</item>
+<item id="_163">
+ <cat>HTTP</cat>
+ <Q>What is HTTP "GET"?</Q>
+ <A>It is a method of sending form data to the server where all the data is contained in the url, in as query string parameters.</A>
+</item>
+<item id="_164">
+ <cat>HTTP</cat>
+ <Q>What is HTTP "POST"?</Q>
+ <A>It is a method of sending data to the server where the data is not in the url, but is in the HTTP request body.</A>
+</item>
+<item id="_165">
+ <cat>HTTP</cat>
+ <Q>What is a HTTP request?</Q>
+ <A>It is a request of a server for a specific url.  It will contain parameters, like the requested url, the time the request was sent, etc.</A>
+</item>
+<item id="_166">
+ <cat>HTTP</cat>
+ <Q>What is a HTTP Response?</Q>
+ <A>This is the message a server sends in response to a HTTP request.  It contains a bunch of parameters like the url it was serving, the time it served it, if the data should be cacheable or not, and it sends the data in the response body.</A>
+</item>
+<item id="_167">
+ <cat>version control</cat>
+ <Q>What is a repository?</Q>
+ <A>It is the "database" where all of your files are held.</A>
+</item>
+<item id="_168">
+ <cat>version control</cat>
+ <Q>What is a checkout?</Q>
+ <A>It is when you checkout files from a repository to a local directory, so you have a local copy.  In Git, this is called a "pull."</A>
+</item>
+<item id="_169">
+ <cat>version control</cat>
+ <Q>What is a commit?</Q>
+ <A>It is when you commit local copies of files into the repository.  This is also called a checkin.</A>
+</item>
+<item id="_170">
+ <cat>version control</cat>
+ <Q>What is an index?</Q>
+ <A>It is a local "index" of your files, where it keeps track of where and how your files are different than the repository.  It also serves as a list of which files are "tracked."</A>
+</item>
+<item id="_171">
+ <cat>version control</cat>
+ <Q>What does the .gitignore file do?</Q>
+ <A>It lists a bunch of patterns or filenames that should be ignored, and should not be tracked by the index.
+
+This .gitignore file itself must be added to the git index, just like all other files.</A>
+</item>
+<item id="_172">
+ <cat>version control</cat>
+ <Q>What happens when you add a file to the index?</Q>
+ <A>The version control software starts tracking the file and it's changes.</A>
+</item>
+<item id="_173">
+ <cat>version control</cat>
+ <Q>What is the repository head?</Q>
+ <A>This is the most recent checked in version.</A>
+</item>
+<item id="_174">
+ <cat>version control</cat>
+ <Q>What is gitk?</Q>
+ <A>gitk is a command that displays (if you have the right software installed) a graphical view of your git repository and it's history.</A>
+</item>
+<item id="_175">
+ <cat>version control</cat>
+ <Q>What is a revision?</Q>
+ <A>A revision is a checkin of a set of local files.  
+
+The first revision is #1.  Subsequent revisions are just higher integers.
+
+In Git, revisions are labeled using SHA1 hashes.  SHA1 is just an algorithm that calculates a big long number based on a set of files.  This number is almost never the same.</A>
+</item>
+<item id="_176">
+ <cat>version control</cat>
+ <Q>What is diff?</Q>
+ <A>Diff is a program that shows the differences between two files.  
+
+Using git, you can diff files, or whole revisions (or probably more).</A>
+</item>
+<item id="_177">
+ <cat>version control</cat>
+ <Q>What is the git command for adding a file to the index?</Q>
+ <A>git add &lt;file&gt;</A>
+</item>
+<item id="_178">
+ <cat>version control</cat>
+ <Q>What is the git command for creating a new repositiory?</Q>
+ <A>git init</A>
+</item>
+<item id="_179">
+ <cat>version control</cat>
+ <Q>What is the git command for committing your local files to the repository?</Q>
+ <A>git commit 
+
+git commit -a  : commits everything
+git commit -a -m "a message"    : commits everything with the commit message "a message"</A>
+</item>
+<item id="_180">
+ <cat>version control</cat>
+ <Q>What is the git command to show the current status of your local files</Q>
+ <A>git status</A>
+</item>
+<item id="_181">
+ <cat>version control</cat>
+ <Q>What is the git command for listing all branches in the repository?</Q>
+ <A>git branch -a </A>
+</item>
+<item id="_182">
+ <cat>version control</cat>
+ <Q>What is the git command for showing the name of the current branch?</Q>
+ <A>git branch</A>
+</item>
+<item id="_183">
+ <cat>version control</cat>
+ <Q>What is the git command for creating a new branch?</Q>
+ <A>git branch &lt;newbranchname&gt;.
+
+This will create a new branch that is the same as the HEAD revision of the repository.</A>
+</item>
+<item id="_184">
+ <cat>version control</cat>
+ <Q>What is a branch?</Q>
+ <A>A branch is a place in your version control where you want to work on a new set of features, making sure you do no harm (make no changes) to the main branch.</A>
+</item>
+<item id="_185">
+ <cat>version control</cat>
+ <Q>What is the main branch or master branch?</Q>
+ <A>It is the main working branch of a repository.  
+
+It can be also be called the "trunk" of the repository (just another name for main branch).</A>
+</item>
+<item id="_186">
+ <cat>version control</cat>
+ <Q>What is a merge?</Q>
+ <A>A merge is when you merge together either two revisions or two branches.</A>
+</item>
+<item id="_187">
+ <cat>version control</cat>
+ <Q>What is the git command for showing the last few revisions?</Q>
+ <A>git log</A>
+</item>
+<item id="_188">
+ <cat>version control</cat>
+ <Q>In git, once you create a new branch are you automatically working on it?</Q>
+ <A>No, by default, you have to checkout the new branch that you created.  </A>
+</item>
+</mnemosyne>
