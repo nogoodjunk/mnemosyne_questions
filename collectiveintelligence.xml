@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mnemosyne core_version="1" >
+<category active="1">
+ <name>ch1</name>
+</category>
+<category active="1">
+ <name>ch2</name>
+</category>
+<item id="_0">
+ <cat>ch1</cat>
+ <Q>What is Machine Learning?</Q>
+ <A>A subfield of AI that allows computers to learn</A>
+</item>
+<item id="_1">
+ <cat>ch1</cat>
+ <Q>How does machine learning work?</Q>
+ <A>It infers properties of data, and then makes predictions based on those inferences.</A>
+</item>
+<item id="_2">
+ <cat>ch1</cat>
+ <Q>Are decision trees transparent?</Q>
+ <A>Yes, you can see the logic behind the decision.</A>
+</item>
+<item id="_3">
+ <cat>ch1</cat>
+ <Q>Are neural networks transparent?</Q>
+ <A>No, they work like a black box, not allowing you to see how the decision was made.
+</A>
+</item>
+<item id="_4">
+ <cat>ch1</cat>
+ <Q>Can regression be considered a form of machine learning?</Q>
+ <A>Yes</A>
+</item>
+<item id="_5">
+ <cat>ch1</cat>
+ <Q>What are some downsides of machine learning?</Q>
+ <A>A machine can only generalize on data that has been seen, and only in limited ways.</A>
+</item>
+<item id="_6">
+ <cat>ch1</cat>
+ <Q>With small amounts of data, is machine learning accurate?</Q>
+ <A>Not always, machine learning has the possibility of overgeneralizing based on a few small coorelations.</A>
+</item>
+<item id="_7">
+ <cat>ch2</cat>
+ <Q>What is collaborative filtering?</Q>
+ <A>Basically, it is looking at a large set of people and finding smaller sets, similar to you. It then looks at the things they like and creates a ranked list of suggestions for you.</A>
+</item>
+<item id="_8">
+ <cat>ch2</cat>
+ <Q>For collaborative filtering purposes, how must the data be represented?</Q>
+ <A>It must be mapped to numerical values.</A>
+</item>
+<item id="_9">
+ <cat>ch2</cat>
+ <Q>How can you map a system of star-based ratings?</Q>
+ <A>As integers from 0-total number of stars</A>
+</item>
+<item id="_10">
+ <cat>ch2</cat>
+ <Q>How can you map a a boolean situation?</Q>
+ <A>0 if they didn't do it
+1 if they did do it.</A>
+</item>
+<item id="_11">
+ <cat>ch2</cat>
+ <Q>How can you map a dislike, like, neutral system?
+</Q>
+ <A>Usually with 
+
+-1: dislike
+0: neutral
+1: like</A>
+</item>
+<item id="_12">
+ <cat>ch2</cat>
+ <Q>What naive data structure can you use to represent preferences?</Q>
+ <A>Arrays of arrays.</A>
+</item>
+<item id="_13">
+ <cat>ch2</cat>
+ <Q>How do you measure alikeness for collaborative filtering?</Q>
+ <A>You need to determine the "similarity score."</A>
+</item>
+<item id="_14">
+ <cat>ch2</cat>
+ <Q>How is a "simiarlity score" obtained?</Q>
+ <A>Euclidean distance (naive), or Pearson correlation (better), among others.</A>
+</item>
+<item id="_15">
+ <cat>ch2</cat>
+ <Q>How does Euclidean distance work in theory?</Q>
+ <A>You plot each preference against another on an axis, and calculate the distance between two user points.  This should be possible in multiple dimensions as well.</A>
+</item>
+</mnemosyne>
